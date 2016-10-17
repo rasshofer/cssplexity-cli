@@ -37,7 +37,7 @@ cssplexity --max=5 main.css
 
 ## License
 
-Copyright (c) 2016 [Thomas Rasshofer](http://thomasrasshofer.com/)
+Copyright (c) 2016 [Thomas Rasshofer](http://thomasrasshofer.com/)  
 Licensed under the MIT license.
 
 See LICENSE for more info.

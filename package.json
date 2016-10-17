@@ -1,0 +1,39 @@
+{
+  "name": "cssplexity-cli",
+  "version": "0.0.1",
+  "description": "A simple CLI tool to calculate the cyclomatic complexity of CSS selectors based on CSSplexity",
+  "author": {
+    "name": "Thomas Rasshofer",
+    "email": "hello@thomasrasshofer.com",
+    "url": "http://thomasrasshofer.com/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rasshofer/cssplexity-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rasshofer/cssplexity-cli/issues"
+  },
+  "main": "cssplexity-cli.js",
+  "keywords": [
+    "cssplexity",
+    "cli"
+  ],
+  "devDependencies": {
+    "jshint": "^2.9.3"
+  },
+  "dependencies": {
+    "columnify": "^1.5.4",
+    "cssplexity": "^0.3.0",
+    "get-stdin": "^5.0.1",
+    "yargs": "^6.2.0"
+  },
+  "scripts": {
+    "test": "jshint cssplexity-cli.js"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "cssplexity": "cssplexity-cli.js"
+  }
+}

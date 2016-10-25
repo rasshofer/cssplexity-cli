@@ -21,13 +21,13 @@
     "cli"
   ],
   "devDependencies": {
-    "jshint": "^2.9.3"
+    "jshint": "^2.9.4"
   },
   "dependencies": {
     "columnify": "^1.5.4",
-    "cssplexity": "^0.3.0",
+    "cssplexity": "^0.4.0",
     "get-stdin": "^5.0.1",
-    "yargs": "^6.2.0"
+    "yargs": "^6.3.0"
   },
   "scripts": {
     "test": "jshint cssplexity-cli.js"
